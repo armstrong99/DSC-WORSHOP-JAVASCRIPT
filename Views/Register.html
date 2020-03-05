@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='../UI/Register.css'type='text/css' rel="stylesheet" />
+    <title>Register </title>
+</head>
+<body>
+<main>
+    <section id='mainSect' >
+        <figure>
+                <img 
+                  
+                alt='Register self'
+                id="imgReg"
+                />
+                <figcaption>
+                    <em>
+                        Please Use the form below to get your self registered, thank you
+                
+                   </em>
+                    <span>
+                        (All <span>*</span> are compulsory field)
+                    </span>
+                
+                </figcaption>
+        </figure>
+        <section id="formSec">
+            <form id="submit" method="POST">
+                <fieldset>
+                <legend>
+                    Register
+                </legend>
+                <label for='name'  >
+                    <strong>
+                        Name
+                    </strong>
+
+                </label>
+                <input id='name' type='text'required='true'placeholder='full name'autocomplete='true' />
+                <br />
+                <label for='About'  >
+                    <strong>
+                        About me
+                    </strong>
+
+                </label>
+                <textarea id='About' type='text'required='true'placeholder='about me'autocomplete='true' ></textarea>
+                <br /> 
+
+                <label for='phone'  >
+                    <strong>
+                        Phone
+                    </strong>
+
+                </label>
+                <input id='phone' type='phone'required='true'placeholder='+23400000'autocomplete='true' />
+                <br />
+                <label for='l.g.a'  >
+                    <strong>
+                        L.G.A
+                    </strong>
+
+                </label>
+                <input id='lga' type='text'required='true'placeholder='local gov area'autocomplete='true' />
+                <br />
+                <label for='state'  >
+                    <strong>
+                        State
+                    </strong>
+
+                </label>
+                <input id='state' type='text'required='true'placeholder='where are you from'autocomplete='true' />
+                <label for="password">
+                    <strong>Password</strong>
+                </label>
+                <input type="password" name="password" required='true' placeholder="please enter password" id="passInput" />
+                <p style="color: blue; font-size: small;" id="paraPass">Show password</p>
+                <label for="confirm password">
+                    <strong>Confirm password</strong>
+                </label>
+                <input type="password" name="cpassword" required='true' placeholder="please enter password again" id="cpassInput" />
+                <p style="color: blue; font-size: small;" id="ePara"></p>
+                <br />
+
+
+                <aside>
+                    <p>Thanks for your time filling this form, please click the  <em>Submit</em> Button to continue </p>
+                    
+                </aside>
+                
+    <input type="submit" name="submit" value="Submit" id="suBtn" />
+                </fieldset>
+            </form>
+
+    </section>
+        
+    
+</main>
+
+
+
+
+
+
+
+
+
+
+
+<script src="../Function/Main.js"></script>
+</body>
+</html>
